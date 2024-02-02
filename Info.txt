@@ -1,0 +1,6 @@
+In CSS, if we set any property in multiple ways
+like , in style.css file , style tag and inline tag the preference would be given to the last timed set.
+in this preferenc would be given to inline css.
+
+Note:- Dont use all methoths at a time(you can)
+
