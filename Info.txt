@@ -4,3 +4,5 @@ in this preferenc would be given to inline css.
 
 Note:- Dont use all methoths at a time(you can)
 
+we can change behaviour of an html element(inline to block) or (block to inline) through display property in css.
+
