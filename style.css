@@ -39,7 +39,15 @@ button{
     color: yellow;
 
 }
+.box{
+    font-size: large;
+    background-color:black;
+    margin: 100px;
+    color: white;
+    text-align: center;
+    display: inline-block;
 
+}
 footer{
     height: 50px;
     background-color: blue;
