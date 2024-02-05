@@ -1,6 +1,6 @@
 In CSS, if we set any property in multiple ways
 like , in style.css file , style tag and inline tag the preference would be given to the last timed set.
-in this preferenc would be given to inline css.
+in this preference would be given to inline css.
 
 Note:- Dont use all methoths at a time(you can)
 
@@ -32,3 +32,11 @@ absolute - elements get shifted from position of its nearest parent element(near
 sticky - initially it stays on its own place but while scrolling it gets fixed in broswer window, according to the values set(by top,rigth,bottom,left).
 
 (top,right,bottom,left,z-index doesnt work without any non-static property)
+
+
+
+flex-direction: Defines the direction of the main axis (row,column,row-reserve,column-reverse) along which flex items are start to put.
+justify-content: Aligns(go towards, not start) flex items along the main axis.
+align-items: Aligns flex items along the cross axis.
+flex-wrap: if items overflow on one line creates multiplelines.(wrap)
+align-content: Aligns flex lines within the flex container when there is extra(free) space on the cross axis.

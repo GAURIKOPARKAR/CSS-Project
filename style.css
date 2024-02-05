@@ -1,25 +1,22 @@
 div{
-    border: 2px solid black;
-    display: inline-block;
     height: 100px;
     width: 100px;
+    border: 2px solid black;
+    display: inline-block;
     text-align: center;
-    margin-top: 200px;
-    
 }
 #container{
-    position: fixed;
-    margin-top: 0;
-    height: 500px;
-    width: 500px;
-
+    width: 400px;
+    height: 800px;
+    border: 2p solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap-reverse;
+    align-content: center;
 }
- #div2{
-    position: relative;
-    right: -50px;
-    
- }
- #div3{
-    position:relative;
-    z-index: 5;
- }
+#box1{background-color:red;}
+#box2{background-color:green;}
+#box3{background-color:blue;}
+#box4{background-color:yellow;}
+#box5{background-color:pink;}
