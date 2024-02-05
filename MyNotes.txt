@@ -6,3 +6,29 @@ Note:- Dont use all methoths at a time(you can)
 
 we can change behaviour of an html element(inline to block) or (block to inline) through display property in css.
 
+(Other than pixels...)
+
+vh = viewport height (browser window height)
+vw = viewport width (browser window width)
+% = % of parent element(height,width)
+em = times of parent element(font-size)
+rem = times of root(html element) --> if you set html{ sizes} then rem of that.
+
+
+position property
+
+static - default property(if you dont give explicitely any other property then it is static)
+fixed - Elements with position: fixed are removed from the normal document flow(page layout) and positioned relative to the viewport (browser window).
+ even while scrolling element is fixed on page.
+
+Note:-
+ elements which are removed from the normal document flow(page layout) in positioning(fixed,absolute) dont reserve space for themselves on page.
+
+relative - element get shifted from its own initial position(relative to itself) but remains in document flow and reserves initial space on page.
+
+absolute - elements get shifted from position of its nearest parent element(nearest ancestor which is non static), dont remains in document flow and cant reserve space on page.
+             it is relative to its closest ancestor.if ancestoris not present then it is relative to <html> element(browser window)
+
+sticky - initially it stays on its own place but while scrolling it gets fixed in broswer window, according to the values set(by top,rigth,bottom,left).
+
+(top,right,bottom,left,z-index doesnt work without any non-static property)

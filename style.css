@@ -1,57 +1,25 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-#navbar{
-
-    height: 50px;
-    background-color:rgb(71, 141, 203) ;
-}
-#logo{
-    width:100px;
-    color: yellow;
-    margin-left: 50px;
-    font-weight: 900;
-    font-size: 20px;
-    text-decoration: none;
-}
-#input{
-    margin-top: 10px;
-    margin-left:150px;
-    width: 400px;
-    height: 25px;
-}
-button{
-    height: 30px; 
-    width: 50px; 
-}
-#cart{
-    text-decoration: none;
-    margin-left: 200px;
-    font-size: 20px;
-    font-weight: 700;
-}
-#login{
-    text-decoration: none;
-    margin-left: 200px;
-    font-size: 20px;
-    font-weight: 700;
-    color: yellow;
-
-}
-.box{
-    font-size: large;
-    background-color:black;
-    margin: 100px;
-    color: white;
-    text-align: center;
+div{
+    border: 2px solid black;
     display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-top: 200px;
+    
+}
+#container{
+    position: fixed;
+    margin-top: 0;
+    height: 500px;
+    width: 500px;
 
 }
-footer{
-    height: 50px;
-    background-color: blue;
-    text-decoration: none;
-}
-
-
+ #div2{
+    position: relative;
+    right: -50px;
+    
+ }
+ #div3{
+    position:relative;
+    z-index: 5;
+ }
