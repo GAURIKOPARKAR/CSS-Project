@@ -12,11 +12,12 @@ div{
     display: flex;
     flex-direction: row;
     justify-content:center;
-    flex-wrap: wrap-reverse;
-    align-content: center;
+
+
+    
 }
 #box1{background-color:red;}
-#box2{background-color:green;}
+#box2{background-color:green;flex-shrink:5;}
 #box3{background-color:blue;}
 #box4{background-color:yellow;}
 #box5{background-color:pink;}

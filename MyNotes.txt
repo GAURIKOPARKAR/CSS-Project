@@ -36,7 +36,13 @@ sticky - initially it stays on its own place but while scrolling it gets fixed i
 
 
 flex-direction: Defines the direction of the main axis (row,column,row-reserve,column-reverse) along which flex items are start to put.
+
+Valuse for followings :- (flex-start, flex-end, center)
 justify-content: Aligns(go towards, not start) flex items along the main axis.
 align-items: Aligns flex items along the cross axis.
-flex-wrap: if items overflow on one line creates multiplelines.(wrap)
+flex-wrap: if items overflow on one line creates multiplelines.(wrap,wrap-reverse)
 align-content: Aligns flex lines within the flex container when there is extra(free) space on the cross axis.
+align-self: Aligns individual flex item along the cross axis.
+
+flex-grow: individual item can grow if there is free space and higher flex-grow value(default valur is 0).
+flex-shrink: individual item can shrink if there is free space and higher flex-shrink value(default valur is 1).
