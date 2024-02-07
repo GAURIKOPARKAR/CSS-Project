@@ -1,28 +1,26 @@
-body{display: flex;
-
-justify-content: center;}
-
-div{
+#outer{
     width: 300px;
     height: 300px;
     background-color: black;
+    color: white;
+    transition: all 0.3s steps(2) 0.1s;
 }
-@media(max-width:300px) {
-    div{background-color: green;}
-    
+#inner{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    position: relative;
+    left: 50px;
+    bottom: 0;
+    transition: all 0.3s steps(2) 0.1s;
 }
-
-@media(min-width:300px) and (max-width:400px) {
-    div{background-color: pink;}
-    
+#inner:hover{
+   
+    font-size: 90px;
+   
 }
-
-@media(min-width:400px) and (max-width:600px) {
-    div{background-color: red;}
-    
-}
-
-@media(min-width:600px){
-    div{background-color: blue;}
-    
+#outer:active{
+    background-color: red;
 }

@@ -46,3 +46,15 @@ align-self: Aligns individual flex item along the cross axis.
 
 flex-grow: individual item can grow if there is free space and higher flex-grow value(default valur is 0).
 flex-shrink: individual item can shrink if there is free space and higher flex-shrink value(default valur is 1).
+
+Media Quries
+
+@media(min-width:400px) //This will effect when (width of viewport >= 400)
+{div{background-color:red}}
+
+@media(min-width:400px) //This will effect when (width of viewport <= 600)
+{div{background-color:red}}
+
+@media(min-width:400px) and @media(max-width:600px)
+// (400 <= vw <= 600 )
+
