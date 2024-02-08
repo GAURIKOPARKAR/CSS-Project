@@ -58,3 +58,31 @@ Media Quries
 @media(min-width:400px) and @media(max-width:600px)
 // (400 <= vw <= 600 )
 
+
+
+transition property
+if you apply property on inner element, then it will work on that inner element only.
+but if you apply it on outer element, then it will work on inner elements as well.
+div:hover{                             //Pseudo class to execute transition on element.
+    background-color:red;
+}
+even if dont write transition property explicitely, Pseudo class will work.
+
+
+transform properties
+Rotate: To rotate an element around a fixed point.
+Scale: To resize an element proportionally along both the horizontal and vertical axes.
+Skew: To slant an element along the horizontal and/or vertical axes.
+translate: To move an element along the horizontal and/or vertical axes in 2D space, allowing for repositioning without altering the element's size or rotation.
+
+
+
+
+
+
+
+
+
+
+
+
