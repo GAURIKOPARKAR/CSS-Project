@@ -7,15 +7,19 @@
     position: relative;
     top: 100px;
     left: 100px;   
-    rotate:z 320deg; 
-
-     transform: scale(2); 
-     transform: translate(80px);
-    transform: skew(30deg);
-
-
-
-
+   
+    
 }
+#outer:hover{
+    animation: MyAnimation 10s ease 0.5s 5;
+    
+}
+@keyframes MyAnimation {
+    
+    0%{background-color: aqua;}
+    50%{transform: translatex(600px);}
+   100%{background-color: brown;}
+}
+
 
 
