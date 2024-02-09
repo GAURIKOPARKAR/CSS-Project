@@ -1,25 +1,24 @@
-#outer{
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    background-color: black;
-    color: white;
+div{
+    height: 200px;
+    width: 200px;
+    border-top: 10px dotted black;
+    border-radius: 50%;
     position: relative;
-    top: 100px;
-    left: 100px;   
-   
-    
-}
-#outer:hover{
-    animation: MyAnimation 10s ease 0.5s 5;
-    
-}
-@keyframes MyAnimation {
-    
-    0%{background-color: aqua;}
-    50%{transform: translatex(600px);}
-   100%{background-color: brown;}
-}
+    top: 200px;
+    left: 500px;
+    text-align: center;
 
 
+    animation: Loader infinite linear 2s;
+}
 
+@keyframes Loader {
+
+    
+
+    0%{rotate: 0deg;}
+    25%{rotate:90deg; border-color: gray;}
+    75%{ rotate:180deg;border-color: black;} 
+    100%{rotate: 360deg;}
+
+}
